@@ -102,9 +102,10 @@ main p {
 
 .box {
 	position: relative;
-	width: 500px;
-	height: 418px;
+	width: 400px;
+	height: 337px;
 	display: flex;
+	padding: border-box;
 	justify-content: center;
 	align-items: center;
 	background: rgb(41, 68, 68);
@@ -113,7 +114,7 @@ main p {
 }
 
 .box:hover {
-	height: 490px;
+	height: 410px;
 	display: flex;
 }
 
@@ -419,4 +420,8 @@ footer {
 		height: 50vh;
 		width: 50vh;
 	}
+}
+@media screen and (min-width: 1980px) {
+
+
 }
